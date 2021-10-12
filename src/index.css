@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+/* pre-req */
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+@font-face {
+  font-family: 'GilroyExtraBold';
+  src: local('GilroyExtraBold'),
+       url('./font/Gilroy-ExtraBold.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'GilroyLight';
+  src: local('GilroyLight'),
+       url('./font/Gilroy-Light.ttf') format('truetype')
+}
+@font-face {
+  font-family: 'GilroySemiBold';
+  src: local('GilroySemiBold'),
+       url('./font/Gilroy-SemiBold.ttf') format('truetype')
+}
+:root{
+  --heading-font: "GilroyExtraBold";
+  --content-font: "GilroyLight";
+  --navbar-font: "GilroySemiBold";
+
+  --primary-color:#6600e5;
+  --secondary-color:#f2f2f2;
+}
+body{
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar
+{
+    display: none;
+}
+*{
+    scroll-behavior: smooth;
+}
+.section_wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* ------------ end pre req ---------- */
