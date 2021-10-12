@@ -16,31 +16,31 @@ function Connect() {
 
         let closebtn = document.getElementsByClassName('close_modal');
 
-        // let lowernav = document.querySelector('.all_navs_container');
+        let lowernav = document.querySelector('.all_navs_container');
 
         let body = document.querySelector('body');
 
         modalLink1.addEventListener('click', () => {
 
-            // lowernav.classList.add('lower_nav_zindex');
-            modal1.classList.add('display_modal');
+            lowernav.classList.add('lower_nav_zindex');
             body.classList.add('disable_scroll');
+            modal1.classList.add('display_modal');
         })
         modalLink2.addEventListener('click', () => {
 
-            // lowernav.classList.add('lower_nav_zindex');
+            lowernav.classList.add('lower_nav_zindex');
             modal2.classList.add('display_modal');
             body.classList.add('disable_scroll');
         })
         modalLink3.addEventListener('click', () => {
 
-            // lowernav.classList.add('lower_nav_zindex');
+            lowernav.classList.add('lower_nav_zindex');
             modal3.classList.add('display_modal');
             body.classList.add('disable_scroll');
         })
         modalLink4.addEventListener('click', () => {
 
-            // lowernav.classList.add('lower_nav_zindex');
+            lowernav.classList.add('lower_nav_zindex');
             modal4.classList.add('display_modal');
             body.classList.add('disable_scroll');
         })
@@ -49,7 +49,7 @@ function Connect() {
 
             closebtn[j]?.addEventListener('click', () => {
                 console.log('event happened')
-                // lowernav.classList.remove('lower_nav_zindex');
+                lowernav.classList.remove('lower_nav_zindex');
                 modal1.classList.remove('display_modal');
                 modal2.classList.remove('display_modal');
                 modal3.classList.remove('display_modal');
@@ -62,7 +62,111 @@ function Connect() {
 
     return (
         <>
+            {/* <img src="/Image/blackhexagon.png" class="tr_hex" />
+                <img src="/Image/blackhexagon.png" class="b_hex" />
+                <img src="/Image/blackhexagon.png" class="tl_hex" /> */}
+
+            <div class="modal_root_wrapper">
+                <div class="modal_wrapper">
+
+                    <div class="connect_steps_modals" id="step1_modal">
+                        <div class="modal_backdrop">
+                            <div class="modal_container">
+
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+
+                                <i class="fas fa-times close_modal"></i>
+
+                                <div class="modal_content">
+                                    <h1 class="modal_count">Step 1</h1>
+                                    <h2 class="modal_title">Get familiar</h2>
+                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
+                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
+                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
+                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
+                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
+                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="connect_steps_modals" id="step2_modal">
+                        <div class="modal_backdrop">
+                            <div class="modal_container">
+
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+
+                                <i class="fas fa-times close_modal"></i>
+
+                                <div class="modal_content">
+                                    <h1 class="modal_count">Step 2</h1>
+                                    <h2 class="modal_title">Join Cohort</h2>
+                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
+                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
+                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
+                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
+                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
+                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="connect_steps_modals" id="step3_modal">
+                        <div class="modal_backdrop">
+                            <div class="modal_container">
+
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+
+                                <i class="fas fa-times close_modal"></i>
+
+                                <div class="modal_content">
+                                    <h1 class="modal_count">Step 3</h1>
+                                    <h2 class="modal_title">Begin research</h2>
+                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
+                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
+                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
+                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
+                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
+                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="connect_steps_modals" id="step4_modal">
+                        <div class="modal_backdrop">
+                            <div class="modal_container">
+
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+
+                                <i class="fas fa-times close_modal"></i>
+
+                                <div class="modal_content">
+                                    <h1 class="modal_count">Step 4</h1>
+                                    <h2 class="modal_title">Get published</h2>
+                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
+                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
+                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
+                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
+                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
+                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
             <section class="connect_section">
+
                 <img src="/Image/blackhexagon.png" class="tr_hex" />
                 <img src="/Image/blackhexagon.png" class="b_hex" />
                 <img src="/Image/blackhexagon.png" class="tl_hex" />
@@ -187,77 +291,6 @@ function Connect() {
 
                     </div>
 
-                    <div class="connect_steps_modals" id="step1_modal">
-                        <div class="modal_backdrop">
-                            <div class="modal_container">
-
-                                <img src="/Image/purplehexagon.png" class="tr_hex" />
-                                <img src="/Image/purplehexagon.png" class="bl_hex" />
-
-                                <i class="fas fa-times close_modal"></i>
-
-                                <div class="modal_content">
-                                    <h1 class="modal_count">Step 1</h1>
-                                    <h2 class="modal_title">Get familiar</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Eos aliquid veniam et architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque voluptas odio dolores ratione libero delectus in!Animi et laborum at incidunt debitis cumque veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima.Id doloremque praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi, voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="connect_steps_modals" id="step2_modal">
-                        <div class="modal_backdrop">
-                            <div class="modal_container">
-
-                                <img src="/Image/purplehexagon.png" class="tr_hex" />
-                                <img src="/Image/purplehexagon.png" class="bl_hex" />
-
-                                <i class="fas fa-times close_modal"></i>
-
-                                <div class="modal_content">
-                                    <h1 class="modal_count">Step 2</h1>
-                                    <h2 class="modal_title">Join Cohort</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Eos aliquid veniam et architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque voluptas odio dolores ratione libero delectus in!Animi et laborum at incidunt debitis cumque veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima.Id doloremque praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi, voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="connect_steps_modals" id="step3_modal">
-                        <div class="modal_backdrop">
-                            <div class="modal_container">
-
-                                <img src="/Image/purplehexagon.png" class="tr_hex" />
-                                <img src="/Image/purplehexagon.png" class="bl_hex" />
-
-                                <i class="fas fa-times close_modal"></i>
-
-                                <div class="modal_content">
-                                    <h1 class="modal_count">Step 3</h1>
-                                    <h2 class="modal_title">Begin research</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Eos aliquid veniam et architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque voluptas odio dolores ratione libero delectus in!Animi et laborum at incidunt debitis cumque veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima.Id doloremque praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi, voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="connect_steps_modals" id="step4_modal">
-                        <div class="modal_backdrop">
-                            <div class="modal_container">
-
-                                <img src="/Image/purplehexagon.png" class="tr_hex" />
-                                <img src="/Image/purplehexagon.png" class="bl_hex" />
-
-                                <i class="fas fa-times close_modal"></i>
-
-                                <div class="modal_content">
-                                    <h1 class="modal_count">Step 4</h1>
-                                    <h2 class="modal_title">Get published</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Eos aliquid veniam et architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque voluptas odio dolores ratione libero delectus in!Animi et laborum at incidunt debitis cumque veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima.Id doloremque praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi, voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
 
