@@ -16,9 +16,9 @@ function Hero() {
                             <div class="hero_flex_lhs">
 
                                 <div class="hero_lhs_content_container">
-                                    <h1>Lorem Ipsum <div>consectetur</div></h1>
+                                    <h1>Hassle away<div>from research and publications</div></h1>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatum sint modi earum facere quia unde tempora quas, minima maiores.</p>
+                                    <p>We are one of a kind free of cost research consultants developing a community for upcoming scientist and researchers by helping them get published in journals like IEEE, Springer, Elsevier, IOP science, etc.</p>
 
                                     <a href="#" class="hero_ctabtn">CTA button</a>
                                 </div>

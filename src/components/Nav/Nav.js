@@ -5,7 +5,7 @@ function Nav() {
 
     useEffect(() => {
         let landscapenav = document.querySelector('.landscape_nav');
-        let navcontainer = document.querySelector('.all_navs_container');
+        // let navcontainer = document.querySelector('.all_navs_container');
 
         window.addEventListener("scroll", () => {
 

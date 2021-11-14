@@ -73,20 +73,15 @@ function Connect() {
                         <div class="modal_backdrop">
                             <div class="modal_container">
 
-                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
-                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" alt="loading" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" alt="loading" />
 
                                 <i class="fas fa-times close_modal"></i>
 
                                 <div class="modal_content">
                                     <h1 class="modal_count">Step 1</h1>
                                     <h2 class="modal_title">Get familiar</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
-                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
-                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
-                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
-                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
-                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                    <p class="modal_info">Making research easy is huge responsibility and may seem like a fictional task to many. But we claim to do it with our passion and network. So, why believe what we say if you can witness it. Browse through our website and read the reviews of various researchers before you, connect and talk to them. We are on a mission to bring the research community together and stronger, helping and guiding the new generation through the dark and lesser known roads of being a researchers. We also have a content repository that you can explore at your pace and absorb as much as you can.</p>
                                 </div>
                             </div>
                         </div>
@@ -96,20 +91,15 @@ function Connect() {
                         <div class="modal_backdrop">
                             <div class="modal_container">
 
-                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
-                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" alt="loading" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" alt="loading" />
 
                                 <i class="fas fa-times close_modal"></i>
 
                                 <div class="modal_content">
                                     <h1 class="modal_count">Step 2</h1>
                                     <h2 class="modal_title">Join Cohort</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
-                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
-                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
-                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
-                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
-                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                    <p class="modal_info">Cheers! Now that you are familiar with we do and who we are, lets get you in. This is a free of cost open research community, so no fees or any kind of favours will be expected from you. The sheer interest and willingness to fight your way through research is required. Please navigate to our <strong>Contact Us</strong>page and get in touch with <strong>Arpan- Director of outreach</strong> who will share some details about us community and the benefits you will receive. Once you are ready to be on-boarded as a research scholar, you will have an orientation and kickstart session with <strong>Muskan- Founder and Director of research</strong>.</p>
                                 </div>
                             </div>
                         </div>
@@ -119,20 +109,26 @@ function Connect() {
                         <div class="modal_backdrop">
                             <div class="modal_container">
 
-                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
-                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" alt="loading" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" alt="loading" />
 
                                 <i class="fas fa-times close_modal"></i>
 
                                 <div class="modal_content">
                                     <h1 class="modal_count">Step 3</h1>
                                     <h2 class="modal_title">Begin research</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
-                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
-                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
-                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
-                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
-                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                    <p class="modal_info">Welcome! You are officially a research scholar with the Plunge2Research community. Now all’s left it to get kicking and start writing your first research paper. Enrol in a one to one mentor ship with our founder- Muskan, where you will navigate through the following
+                                        <ul>
+                                            <li>Selecting a research topic.</li>
+                                            <li>Understanding types of publications and their indexing.</li>
+                                            <li>Accessing research papers, navigation <a href="https://scholar.google.co.in/" target="_blank">GoogleScholar</a> and reading research papers.</li>
+                                            <li>Writing the publication of your choice.</li>
+                                            <li>Proof reading, Plagiarism removal and format editing.</li>
+                                            <li>Getting expert guidance from one of Plunge2Research research mentors or any senior professor contact of yours.</li>
+                                            <li>Select a Journal & Publication house and submit.</li>
+                                        </ul>
+                                        PS- This just the overview, you can ask, learn and do anything or everything in research domains like understanding book writings, finding research internships, writing a proposal, making research precence across the web, YouTube collaborations and much more. We are here for you for whatever you want – like a good consultant and advisor !
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -142,20 +138,16 @@ function Connect() {
                         <div class="modal_backdrop">
                             <div class="modal_container">
 
-                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" />
-                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" />
+                                <img src="/Imageimg/purplehexagon.png" class="tr_hex" alt="loading" />
+                                <img src="/Imageimg/purplehexagon.png" class="bl_hex" alt="loading" />
 
                                 <i class="fas fa-times close_modal"></i>
 
                                 <div class="modal_content">
                                     <h1 class="modal_count">Step 4</h1>
                                     <h2 class="modal_title">Get published</h2>
-                                    <p class="modal_info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos aliquid veniam et
-                                        architecto nostrum id saepe quam, quidem iusto molestias quis est hic iste quasi quas neque itaque
-                                        voluptas odio dolores ratione libero delectus in! Animi et laborum at incidunt debitis cumque
-                                        veritatis, soluta maxime nesciunt quae magni iure modi culpa ipsum deserunt minima. Id doloremque
-                                        praesentium vel exercitationem rem nam soluta voluptatem quis facilis, consequatur excepturi,
-                                        voluptates at eveniet ullam velit consequuntur sapiente iusto?</p>
+                                    <p class="modal_info">Congratulations! You are now a acclaimed and published researchers. So, What’s next for you researcher scholar? Get in touch with Muskan for new opportunities and possibilities. You may want to write a review paper, an implementation paper, a book chapter, a research proposal, apply for a research internship, get your projects and other articles published, learn more about a domain or apply for summer research programs. Sky is the limit
+.</p>
                                 </div>
                             </div>
                         </div>
@@ -167,9 +159,9 @@ function Connect() {
 
             <section class="connect_section">
 
-                <img src="/Image/blackhexagon.png" class="tr_hex" />
-                <img src="/Image/blackhexagon.png" class="b_hex" />
-                <img src="/Image/blackhexagon.png" class="tl_hex" />
+                <img src="/Image/blackhexagon.png" class="tr_hex" alt="loading" />
+                <img src="/Image/blackhexagon.png" class="b_hex" alt="loading" />
+                <img src="/Image/blackhexagon.png" class="tl_hex" alt="loading" />
 
                 <div class="section_wrapper">
 
@@ -189,12 +181,12 @@ function Connect() {
                                         <h2 class="step_card_title">Get familiar</h2>
 
                                         <div class="step_card_img">
-                                            <img src="/Image/Illustration 1.png" />
+                                            <img src="/Image/Illustration 1.png" alt="loading" />
                                         </div>
 
                                         <p class="step_card_info">Understand our vision and
                                             explore various research
-                                            domains
+                                            domains.
                                         </p>
 
                                         <span class="step_card_modal_link" id="step1_link">view more</span>
@@ -202,7 +194,7 @@ function Connect() {
                                     </div>
 
                                     <div class="design_container">
-                                        <img src="/Image/purplehexagon.png" />
+                                        <img src="/Image/purplehexagon.png" alt="loading" />
                                     </div>
 
                                 </div>
@@ -214,11 +206,11 @@ function Connect() {
                                         <h2 class="step_card_title">Join Cohort</h2>
 
                                         <div class="step_card_img" id="step2_img">
-                                            <img src="/Image/Illustration 2.png" />
+                                            <img src="/Image/Illustration 2.png" alt="loading" />
                                         </div>
 
                                         <p class="step_card_info">Contact our team and be
-                                            part of the community
+                                            part of the community.
                                         </p>
 
                                         <span class="step_card_modal_link" id="step2_link">view more</span>
@@ -226,7 +218,7 @@ function Connect() {
                                     </div>
 
                                     <div class="design_container">
-                                        <img src="/Image/purplehexagon.png" />
+                                        <img src="/Image/purplehexagon.png" alt="loading" />
                                     </div>
 
                                 </div>
@@ -242,12 +234,12 @@ function Connect() {
                                         <h2 class="step_card_title">Begin research</h2>
 
                                         <div class="step_card_img">
-                                            <img src="/Image/Illustration 3.png" />
+                                            <img src="/Image/Illustration 3.png" alt="loading" />
                                         </div>
 
                                         <p class="step_card_info">Get the research
                                             opportunity of your choice
-                                            and start working
+                                            and start working.
                                         </p>
 
                                         <span class="step_card_modal_link" id="step3_link">view more</span>
@@ -255,7 +247,7 @@ function Connect() {
                                     </div>
 
                                     <div class="design_container">
-                                        <img src="/Image/purplehexagon.png" />
+                                        <img src="/Image/purplehexagon.png" alt="loading" />
                                     </div>
 
                                 </div>
@@ -267,12 +259,12 @@ function Connect() {
                                         <h2 class="step_card_title">Get published</h2>
 
                                         <div class="step_card_img">
-                                            <img src="/Image/Illustration 4.png" />
+                                            <img src="/Image/Illustration 4.png" alt="loading" />
                                         </div>
 
                                         <p class="step_card_info">Submit your research
                                             article, get reviewed
-                                            and published
+                                            and published.
                                         </p>
 
                                         <span class="step_card_modal_link" id="step4_link">view more</span>
@@ -280,7 +272,7 @@ function Connect() {
                                     </div>
 
                                     <div class="design_container">
-                                        <img src="/Image/purplehexagon.png" />
+                                        <img src="/Image/purplehexagon.png" alt="loading" />
                                     </div>
 
                                 </div>
