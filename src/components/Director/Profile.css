@@ -1,0 +1,68 @@
+.profiler{
+    display: flex;
+    width: 32rem;
+    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+.profile_image img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.profile_image{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px #888888b6;
+}
+
+.profile_info{
+    width: 18rem;
+    height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.profile_name{
+font-size: 35px;
+}
+.profile_desc{
+    font-size: 15px;
+  font-family: var(--content-font);
+  font-size: calc(0.7rem + 0.6vw);
+}
+
+.profile_info p{
+    font-weight: lighter;
+}
+.profile_social{
+    display: flex;
+    justify-content: space-between;
+    width: 5rem;
+    height: 100%;
+    margin: 1rem 0rem;
+}
+.fa-info-circle{
+    color: var(--primary-color);
+    position: relative;
+    top: -90%;
+    right: -90%;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #888888b6;
+}
+.fa-envelope{
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 2rem;
+}
+.fa-linkedin-in{
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 2rem;
+}

@@ -1,0 +1,83 @@
+.contact {
+  background-image: linear-gradient(to right, #24034d, var(--primary-color));
+}
+.contact_ h2 {
+    color: white;
+    font-size: calc(1.5rem + 0.75vw);
+  font-family: var(--heading-font);
+    margin: 0 0 4% 0;
+    padding: 4% 6% 0% 7%;
+}
+.contact_{
+  position: relative;
+}
+.tr__hex{
+  position:absolute;
+  top:-4rem;
+  right: -3rem;
+  opacity: 10%;
+  transform: rotateZ(-50deg);
+  z-index: 0;
+}
+.tr__hexa{
+  position:absolute;
+  bottom:5rem;
+  right: -7rem;
+  opacity: 10%;
+  transform: rotateZ(-40deg);
+  z-index: 0;
+}
+.tl__hex{
+  position:absolute;
+  opacity: 15%;
+  transform: rotateZ(-22deg) scale(1.1);
+  bottom:-10rem;
+  left: 10rem;
+  z-index: 0;
+}
+.tl__hexa{
+  position:absolute;
+  opacity: 15%;
+  transform: rotateZ(-20deg);
+  top:-1rem;
+  left: -4rem;
+  z-index: 0;
+}
+.b__hex{
+  position:absolute;
+  opacity: 10%;
+  transform: rotateZ(40deg) scale(1.1);
+  bottom:30rem;
+  right: 35%;
+  z-index: 0;
+}
+.contact_options {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width:1024px){
+  
+  .contact_ h2 {
+      font-size: calc(1.2rem + 0.75vw);
+}
+}
+@media only screen and (max-width:768px){
+  .contact_ h2 {
+      font-size: calc(1rem + 0.6vw);
+  }
+  
+}
+@media only screen and (max-width:590px){
+  .contact_ h2 {
+      font-size: calc(0.7rem + 0.5vw);
+  }
+  
+}
+@media only screen and (max-width:490px){
+  .contact_ h2 {
+      font-size: calc(0.7rem + 0.3vw);
+  }
+  
+}

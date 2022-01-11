@@ -1,0 +1,159 @@
+.schedule{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.schedule_modal{
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background-color: white;
+  box-shadow: 10px 5px 60px 20px #888888b6;
+  margin: 0;
+  position: relative;
+  max-height: 40rem;
+}
+.schedule_display{
+    display: flex;
+    margin: 10% 10% 0 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 10rem;
+   }
+.Schedule_action{
+  width: 85%;
+  height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Schedule_desc{
+  overflow-y: scroll;
+    width: 85%;
+    height: 70%;
+    font-family: var(--content-font), sans-serif;
+    font-size: calc(1rem + 0.6vw);
+}
+.option{
+    color: var(--primary-color);
+  font-size: calc(1rem + 0.5vw);
+}
+.schedule_ctabtn:link,
+.schedule_ctabtn:visited{
+  color: #fff;
+  font-family: var(--content-font);
+  font-weight:100;
+  font-size: 1.5rem;
+  padding:1rem 2rem;
+  border-radius:50px;
+  text-decoration: none;
+  background-color: #000;
+  box-shadow: 15px 15px 30px rgb(255, 255, 255,0.30);
+  transition: all 0.5s ease;
+}
+.schedule_ctabtn:hover,
+.schedule_ctabtn:active{
+  box-shadow: 0px 0px 0px transparent;
+  transform:scale(0.9);
+}
+.close__modal{
+    top:-5%;
+    right: -4%;
+}
+@media only screen and (max-width:1024px){
+  .option{
+  font-size: calc(1rem + 0.1vw);
+}
+.schedule_ctabtn:link, .schedule_ctabtn:visited{
+  font-size: 1rem;
+}
+.Schedule_action{
+  width: 85%;
+  height: 30%;
+}
+  .schedule_modal{
+    max-height: 55%;
+    width: 60vw;
+  }
+}
+@media only screen and (max-width:768px){
+  .option{
+  font-size: 1rem;
+}
+.schedule_ctabtn:link, .schedule_ctabtn:visited{
+  font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+.Schedule_desc{
+    font-size: 1.2rem;
+} 
+}
+@media only screen and (max-width:590px){
+  .Schedule_desc{
+      font-size: 1rem;
+  }
+  .option{
+  font-size: 0.8rem;
+  }
+  .close__modal{
+    font-size: 4rem;
+    top:-2.5%;
+  }
+  .schedule_ctabtn:link, .schedule_ctabtn:visited{
+  font-size: 0.6rem;
+  padding: 0.5rem 1rem;
+  }
+  .schedule_modal{
+    max-height: 50%;
+  }
+  
+}
+@media only screen and (max-width:490px){
+  .Schedule_desc{
+      font-size: 0.7rem;
+  }
+  .option{
+  font-size: 0.5rem;
+  }
+  .schedule_ctabtn:link, .schedule_ctabtn:visited{
+  font-size: 0.6rem;
+  padding: 0.5rem 1rem;
+  }
+  .schedule_modal{
+    border-radius: 30px;
+    max-height: 35%;
+  }
+  .close__modal{
+    font-size: 3rem;
+  }
+  
+}
+@media only screen and (max-width:330px){
+  .Schedule_desc{
+      font-size: 0.7rem;
+  }
+  .option{
+  font-size: 0.4rem;
+  }
+  .schedule_ctabtn:link, .schedule_ctabtn:visited{
+  font-size: 0.4rem;
+  padding: 0.5rem 1rem;
+  }
+  .schedule_modal{
+    /* border-radius: 30px; */
+    max-height: 30%;
+  }
+  .close__modal{
+    font-size: 3rem;
+  }
+  
+}

@@ -1,0 +1,51 @@
+.contactUS {
+  height: 35vw;
+  width: 35vw;
+  background-image: url("../Images/4760051.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 45px;
+  overflow: hidden;
+  position: relative;
+  margin: 0% 7.5% 8% 7.5%;
+  box-shadow: -10px -10px 50px #888888b6, 10px 10px 50px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.options {
+  height: 25%;
+  width: 100%;
+  background-color: rgba(255, 255, 255);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  font-family: var(--heading-font);
+  font-size: calc(0.5rem + 0.75vw);
+  overflow: hidden;
+}
+.tr_hexa{
+  position:absolute;
+  top:-6rem;
+  right: -7rem;
+  opacity: 10%;
+  transform: rotateZ(-15deg);
+  z-index: 0;
+}
+@media only screen and (max-width: 768px){
+  .contactUS {
+    border-radius: 30px;
+  }
+.options {
+  font-size: calc(0.5rem + 0.5vw);
+}
+}
+@media only screen and (max-width: 425px){
+.options {
+  font-size: calc(0.5rem + 0.1vw);
+}
+.contactUS {
+  border-radius: 20px;
+}
+}
